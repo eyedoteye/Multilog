@@ -4,7 +4,6 @@ title: "I Am Now A Poor Boy"
 category: notice
 tags: informative delay
 ---
-
 _Shanananaleedledeedledeedydeedledeedledum~_
 
 SphereKoan IS ON PERMANENT HOLD!
