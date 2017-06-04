@@ -3,13 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
+i.i is a vessel of exploration through which Krishnan Sarkar speaks.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am Krishnan Sarkar, an enthusiast of playful media, but furthermore, of _joy_.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Over the past year, I have come to live by these Three Discplines:
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+> *The Three Displines*
+> 1. Discipline of Personal Growing
+> 2. Discipline of Peer Strengthening
+> 3. Discipline of Public Educating
