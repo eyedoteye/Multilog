@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home-texts">
     <h1 class="page-heading">Texts</h1>
 
       {{ content }}
@@ -23,21 +23,21 @@ layout: default
         <td class="texts-list-date">
           {{ date.name }}
         </td>
-        <td class="text-list-divider">]=~</td>
+        <td class="texts-list-divider">]=~</td>
         <!-- there better only be one notice in here! -->
-        {% assign text = date.items | where_exp:"item", "item.superCategory == 'notice'" | first %}
+        {% assign text = date.items | where_exp:"item", "item.category == 'notice'" | first %}
         <td class="texts-list-name">
           <a href="{{ text.url | relative_url }}">{{ text.title }}</a> 
         </td>
-        <td class="text-list-divider">⋯</td>
+        <td class="texts-list-divider">⋯</td>
         <!-- there better only be one article in here! -->
-        {% assign text = date.items | where_exp:"item", "item.superCategory == 'article'" | first %}
+        {% assign text = date.items | where_exp:"item", "item.category == 'article'" | first %}
         <td class="texts-list-name">
           <a href="{{ text.url | relative_url }}">{{ text.title }}</a> 
         </td>
-        <td class="text-list-divider">⋯</td>
+        <td class="texts-list-divider">⋯</td>
         <!-- there better only be one devlog in here! -->
-        {% assign text = date.items | where_exp:"item", "item.superCategory == 'devlog'" | first %}
+        {% assign text = date.items | where_exp:"item", "item.category == 'devlog'" | first %}
         <td class="texts-list-name">
           <a href="{{ text.url | relative_url }}">{{ text.title }}</a> 
         </td>

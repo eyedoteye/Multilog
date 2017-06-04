@@ -1,0 +1,52 @@
+---
+layout: post
+title: "SphereKoan #003"
+category: devlog
+tags: challenge delay
+---
+Good gosh, so much has occured since my last log two weeks ago. Both in my
+personal and academic lives.<br>
+There was some period of some great turmoil, that I think really brought forth
+the preceding explorations. I suppose there is always a flower to bloom in the
+darkness.
+
+And so due to those complications, I think I'm going to unguiltily give myself
+an extra week to complete my #thatgamefeel challenge. I think that wil be a more
+useful measure, to me, of where I currently am.
+
+However, not all news is bleak!<br>
+I feel it's rather important to remain disciplined in growth, despite the
+adversities and challenges in life. So I've planted a couple new roots within my
+being.
+
+- I've been deligently goiny through a demystifying mindfulness course
+from coursera. I've even gotten accepted for a teensy-tiny scholarshiparuno! The
+course has been really amazing so far. There is a lot of writing involved, and
+that's pretty tiring, so I've really been getting a chance to excercise that
+discipline.
+- I've also begun illustrating, and have even started venturing into digital
+painting. It's really fun and the act, in itself, is really encouraging.
+- Good gosh, cold showers! After getting over the initial inhibitions, they
+are actually _super amazing_! Lately I've been starting the shower warm,
+and then slowly transitioning into cold. That way I get to experience the
+best of both worlds, it starts as relieving and then it leaves me with a
+great feeeling of refreshment.
+- Oh, also! I've completely reorganized my room. It is now a low bed and
+standing desk room. I've always believed that the room is a reflection of
+the mind and vice-versa; so I'm really happy with this new setup.
+
+On the SphereKoan front, there _has been_ some developments.
+Notably, I am currently transitioning and updating my workflow to better
+utilize YouCompleteMe. It's a little tricky because I'm compiling windows
+programs, but I'm developing the linux subsystem. I've also been making good
+progress on piecing together the architecture. I've been pulling pieces of
+my old projects together and reworking it to an infrastructure better suited
+for 3D-interactive projects.
+
+Aside from the technical boring stuff, I've also attached one of my
+behind-the-scenes, rougher design notes below:
+
+![SphereKoan Design Doc](/assets/SphereKoan003.jpg){:class="img-responsive"}
+
+I'm i.i,<br>
+and okay bye

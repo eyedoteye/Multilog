@@ -14,6 +14,7 @@
   @include relative-font-size(1.625);
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
 
@@ -100,6 +101,7 @@
 }
 
 
+
 /**
  * Site footer
  */
@@ -168,45 +170,7 @@
   }
 }
 
-/**
- * Homepage content
- */
-.home-texts {
-  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
-}
 
-.texts-list {
-  width: 112%;
-  position: relative;
-  right: 16%;
-
-  border-collapse: collapse;
-
-  > tbody {
-    > tr:hover {
-      background-color: beige;
-      border-left-color: beige;
-      border-right-color: beige;
-    }
-  }
-}
-
-.texts-list-date {
-  text-align: right;
-  @include relative-font-size(.75);
-  opacity: .5;
-}
-
-.texts-list-date + .texts-list-divider {
-  opacity: .5;
-}
-
-.texts-list-name {
-  text-align: center;
-  width: 27%;
-  padding-right: 1em;
-  padding-left: 1em;
-}
 
 /**
  * Page content
@@ -249,7 +213,7 @@
 
 .post-title {
   @include relative-font-size(2.625);
-  font-family: Monaco, monospace;
+  letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {

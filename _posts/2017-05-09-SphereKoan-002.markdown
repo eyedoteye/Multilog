@@ -1,0 +1,38 @@
+---
+layout: post
+title: "SphereKoan #002"
+category: devlog
+tags: challenge
+---
+I spent most of the week rummaging through cpp-con talks and handmade hero
+videos for superior ways of approaching game programming. Games tend to work
+best with: Production usage code first, fast failing, and compilation time type
+checking. However, I think there are pieces and lessons from test-driven
+development and contract-driven development that can be leveraged for a superior
+overall dev experience. I may elaborate on them at a later time, as I haven’t
+truly been able to test my thoughts.
+
+A lot of the notes I’ve taken since last week are repetitive and
+half-thoughts. That’s just kind of part of the process. I’ve included here two
+of the more refined pages I’ve managed to collect.
+
+![SphereKoan Design Doc](/assets/SphereKoan002A.jpg){:class="img-responsive"}
+
+This is the Moments & Systems outline. When I first started writing this out,
+I honestly had no idea what I was doing, just that I was doing it neatly, and
+that somehow made me feel like I was doing something right. Pro strats.
+
+![SphereKoan Design Doc](/assets/SphereKoan002B.jpg){:class="img-responsive"}
+
+Here I’m starting to delve in and really explore the controls. Having to
+write them down like this helped me identify a couple problem areas that I
+didn’t really see when I first started. I think an important thing to note is
+that during this process I’m also being very mindful of how the 3D controls
+relate to the 2D controls.
+
+And on that note, I’ve started taking a mindfulness course from coursera!
+In addition to improving my daily life, I think it will be very useful once I
+get to the iterative aspect of game design (Also, I strongly believe that positive health in creative fields needs to be discussed and encouraged much much more, but that’s a topic for another day).
+
+I’m i.i,<br>
+and okay bye
