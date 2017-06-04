@@ -4,7 +4,7 @@ title: "SphereKoan #001"
 category: devlog
 tags: challenge
 ---
-![SphereKoan Design Doc]({{ sites.baseurl }}/assets/SphereKoan001.jpg){:class="img-responsive"}
+![SphereKoan Design Doc]({{ site.baseurl }}/assets/SphereKoan001.jpg){:class="img-responsive"}
 
 I spent most of my time working with porting a different project of mine
 today, but I managed to get a quick design doc out for the proto-type. You can
