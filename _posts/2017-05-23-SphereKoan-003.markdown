@@ -46,7 +46,7 @@ for 3D-interactive projects.
 Aside from the technical boring stuff, I've also attached one of my
 behind-the-scenes, rougher design notes below:
 
-![SphereKoan Design Doc](/assets/SphereKoan003.jpg){:class="img-responsive"}
+![SphereKoan Design Doc]({{ site.baseurl }}/assets/SphereKoan003.jpg){:class="img-responsive"}
 
 I'm i.i,<br>
 and okay bye

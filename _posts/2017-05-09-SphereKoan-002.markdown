@@ -16,13 +16,13 @@ A lot of the notes I’ve taken since last week are repetitive and
 half-thoughts. That’s just kind of part of the process. I’ve included here two
 of the more refined pages I’ve managed to collect.
 
-![SphereKoan Design Doc](/assets/SphereKoan002A.jpg){:class="img-responsive"}
+![SphereKoan Design Doc]({{ sites.baseurl }}/assets/SphereKoan002A.jpg){:class="img-responsive"}
 
 This is the Moments & Systems outline. When I first started writing this out,
 I honestly had no idea what I was doing, just that I was doing it neatly, and
 that somehow made me feel like I was doing something right. Pro strats.
 
-![SphereKoan Design Doc](/assets/SphereKoan002B.jpg){:class="img-responsive"}
+![SphereKoan Design Doc]({{ sites.basurel }}/assets/SphereKoan002B.jpg){:class="img-responsive"}
 
 Here I’m starting to delve in and really explore the controls. Having to
 write them down like this helped me identify a couple problem areas that I
