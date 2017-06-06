@@ -17,8 +17,8 @@ title: i.i
 email: i.i@001.run
 description: > # this means to ignore newlines until "baseurl:"
   Wow check out my cool website.
-baseurl: /Multilog # the subpath of your site, e.g. /blog
-url: https://sigmasleep.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: # the subpath of your site, e.g. /blog
+url: https://eyedoteye.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eyedoteye
 github_username:  sigmasleep
 
