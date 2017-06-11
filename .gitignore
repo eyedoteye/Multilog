@@ -2,3 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 *.swp
+_posts/
+assets/
+about.md
+_config.yml

@@ -23,7 +23,7 @@ layout: default
         <td class="texts-list-date">
           {{ date.name }}
         </td>
-        <td class="texts-list-divider">]=~</td>
+        <td class="texts-list-divider">»</td>
         <!-- there better only be one notice in here! -->
         {% assign text = date.items | where_exp:"item", "item.category == 'notice'" | first %}
         <td class="texts-list-name">
