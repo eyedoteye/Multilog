@@ -185,6 +185,7 @@
 
 .texts-list {
   position: relative;
+  right: 5%;
 
   border-collapse: collapse;
 
@@ -201,17 +202,18 @@
   text-align: right;
   @include relative-font-size(.75);
   opacity: .5;
+  width: 10%;
 }
 
-.texts-list-date + .texts-list-divider {
-  opacity: .5;
-}
+//.texts-list-date + .texts-list-divider {
+//  opacity: .5;
+//}
 
 .texts-list-name {
   text-align: center;
-  width: 27%;
   padding-right: 1em;
   padding-left: 1em;
+  width: 45%;
 }
 
 /**

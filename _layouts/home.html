@@ -3,19 +3,12 @@ layout: default
 ---
 
 <div class="home-texts">
-    <h1 class="page-heading">Texts</h1>
-
-      {{ content }}
-
     <table class="texts-list">
       <tr>
         <th class="texts-list-date">Date</th>
-        <th></th>
-        <th class="texts-list-name">Notice</th>
-        <th></th>
-        <th class="texts-list-name">Article</th>
-        <th></th>
-        <th class="texts-list-name">Devlog</th>
+        <th class="texts-list-name">Articles</th>
+        <th>&</th>
+        <th class="texts-list-name">Etc</th>
       </tr>
       {% assign logs_by_date = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m-%d'" %}
       {% for date in logs_by_date %}
@@ -23,21 +16,14 @@ layout: default
         <td class="texts-list-date">
           {{ date.name }}
         </td>
-        <td class="texts-list-divider">»</td>
-        <!-- there better only be one notice in here! -->
-        {% assign text = date.items | where_exp:"item", "item.category == 'notice'" | first %}
-        <td class="texts-list-name">
-          <a href="{{ text.url | relative_url }}">{{ text.title }}</a> 
-        </td>
-        <td class="texts-list-divider">⋯</td>
         <!-- there better only be one article in here! -->
         {% assign text = date.items | where_exp:"item", "item.category == 'article'" | first %}
         <td class="texts-list-name">
           <a href="{{ text.url | relative_url }}">{{ text.title }}</a> 
         </td>
         <td class="texts-list-divider">⋯</td>
-        <!-- there better only be one devlog in here! -->
-        {% assign text = date.items | where_exp:"item", "item.category == 'devlog'" | first %}
+        <!-- there better only be one etc in here! -->
+        {% assign text = date.items | where_exp:"item", "item.category == 'etc'" | first %}
         <td class="texts-list-name">
           <a href="{{ text.url | relative_url }}">{{ text.title }}</a> 
         </td>
